@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import Label from './components/Label';
 import Button from './components/Button';
 import LabelForPrint from './components/LabelForPrint';
-import { v4 as uuidv4 } from 'uuid';
+
 const labels = [
     {
         title: 'Вася',
@@ -26,25 +27,18 @@ const labels = [
 
 function App() {
     const [printLabels, setPrintLabels] = useState(labels);
-    const [listForPrint, setListForPrint] = useState([...labels]);
+    const [listForPrint, setListForPrint] = useState([]);
 
     function createLabelsForPrint() {
-        console.log('labels', labels);
-        let listForPrint2 = [];
+        let prepareForPrint = [];
         const labelsForPrint = printLabels.filter((item) => item.qty > 0);
-        console.log('labelsforprint', labelsForPrint);
         labelsForPrint.forEach((item) => {
             for (let i = 0; i < item.qty; i++) {
-                console.log('item', item);
-
-                // setListForPrint([...listForPrint, item]);
-                listForPrint2 = [...listForPrint2, Object.assign({}, item)];
-                console.log('listForPrint2', listForPrint2);
+                prepareForPrint = [...prepareForPrint, Object.assign({}, item)];
             }
         });
-        listForPrint2.map((item) => (item.id = uuidv4()));
-        setListForPrint(listForPrint2);
-        console.log('listForPrint', listForPrint);
+        prepareForPrint.map((item) => (item.id = uuidv4()));
+        setListForPrint(prepareForPrint);
     }
 
     function minusQty(id) {}
@@ -55,7 +49,6 @@ function App() {
         const order = printLabels.find((item) => item.id === itemId);
         order.qty = order.qty + 1;
         setPrintLabels([...printLabels]);
-        console.log('plusQty', printLabels);
     }
 
     return (
