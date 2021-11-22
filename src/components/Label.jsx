@@ -2,8 +2,6 @@ import { useState } from 'react';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 
 function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
-    //const [qty, setQty] = useState(0);
-
     return (
         <tr>
             <td style={{ width: '800px' }}>{title}</td>
@@ -27,7 +25,7 @@ function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
                 }}
             >
                 <input
-                    onChange={(e) => handleInput(e.target.value)}
+                    onChange={(e) => handleInput(e.target.value, id)}
                     value={qty}
                     style={{
                         width: '30px',

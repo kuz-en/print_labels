@@ -41,7 +41,11 @@ function App() {
         setListForPrint(prepareForPrint);
     }
 
-    function handleInput(id, value) {}
+    function handleInput(value, itemId) {
+        const order = printLabels.find((item) => item.id === itemId);
+        order.qty = value;
+        setPrintLabels([...printLabels]);
+    }
 
     function plusQty(itemId) {
         const order = printLabels.find((item) => item.id === itemId);
