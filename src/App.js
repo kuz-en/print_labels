@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Label from './components/Label';
 import Button from './components/Button';
-import LabelForPrint from './components/LabelForPrint';
 
 const labels = [
     {
@@ -43,35 +42,33 @@ function App() {
 
     function handleInput(value, itemId) {
         const order = printLabels.find((item) => item.id === itemId);
-        order.qty = value;
+        order.qty = +value;
         setPrintLabels([...printLabels]);
+        createLabelsForPrint();
     }
 
     function plusQty(itemId) {
         const order = printLabels.find((item) => item.id === itemId);
         order.qty = order.qty + 1;
         setPrintLabels([...printLabels]);
+        createLabelsForPrint();
     }
 
     function minusQty(itemId) {
         const order = printLabels.find((item) => item.id === itemId);
         order.qty = order.qty - 1;
         setPrintLabels([...printLabels]);
+        createLabelsForPrint();
+    }
+
+    function clearInputsAfterPrint() {
+        printLabels.find((item) => (item.qty = 0));
+        setPrintLabels([...printLabels]);
     }
 
     return (
         <div className='container' style={{ marginTop: '40px' }}>
             <div className='row'>
-                {listForPrint.map((item) => {
-                    return (
-                        <LabelForPrint
-                            createLabelsForPrint={createLabelsForPrint}
-                            key={item.id}
-                            title={item.title}
-                        />
-                    );
-                })}
-
                 <table className='u-full-width'>
                     <thead>
                         <tr>
@@ -99,8 +96,8 @@ function App() {
                 </table>
             </div>
             <Button
-                printLabels={printLabels}
-                createLabelsForPrint={createLabelsForPrint}
+                listForPrint={listForPrint}
+                clearInputsAfterPrint={clearInputsAfterPrint}
             />
         </div>
     );
