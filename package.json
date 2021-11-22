@@ -9,8 +9,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-id-generator": "^3.0.2",
     "react-scripts": "4.0.3",
     "react-to-print": "^2.14.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
