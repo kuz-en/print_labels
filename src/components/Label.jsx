@@ -8,7 +8,7 @@ function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
         <tr>
             <td style={{ width: '800px' }}>{title}</td>
             <td style={{ width: '20px' }}>
-                <button onClick={() => minusQty()} className='button-count'>
+                <button onClick={() => minusQty(id)} className='button-count'>
                     <FaMinus
                         style={{
                             color: '#33c3f0',

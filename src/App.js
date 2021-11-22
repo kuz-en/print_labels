@@ -41,13 +41,17 @@ function App() {
         setListForPrint(prepareForPrint);
     }
 
-    function minusQty(id) {}
-
     function handleInput(id, value) {}
 
     function plusQty(itemId) {
         const order = printLabels.find((item) => item.id === itemId);
         order.qty = order.qty + 1;
+        setPrintLabels([...printLabels]);
+    }
+
+    function minusQty(itemId) {
+        const order = printLabels.find((item) => item.id === itemId);
+        order.qty = order.qty - 1;
         setPrintLabels([...printLabels]);
     }
 
