@@ -6,14 +6,7 @@ function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
             <td style={{ width: '800px' }}>{title}</td>
             <td style={{ width: '20px' }}>
                 <button onClick={() => minusQty(id)} className='button-count'>
-                    <FaMinus
-                        style={{
-                            color: '#33c3f0',
-                            fontSize: '14px',
-                            textAlign: 'center',
-                            verticalAlign: 'middle',
-                        }}
-                    />
+                    <FaMinus className='change-qty' />
                 </button>
             </td>
             <td
@@ -24,14 +17,9 @@ function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
                 }}
             >
                 <input
+                    className='input-qty'
                     onChange={(e) => handleInput(e.target.value, id)}
                     value={qty}
-                    style={{
-                        width: '30px',
-                        height: '26px',
-                        textAlign: 'center',
-                        fontSize: '2.2rem',
-                    }}
                 />
             </td>
             <td style={{ width: '20px', textAlign: 'center' }}>
@@ -40,14 +28,7 @@ function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
                     onClick={() => plusQty(id)}
                     style={{ verticalAlign: 'middle' }}
                 >
-                    <FaPlus
-                        style={{
-                            color: '#33c3f0',
-                            fontSize: '14px',
-                            textAlign: 'center',
-                            verticalAlign: 'middle',
-                        }}
-                    />
+                    <FaPlus className='change-qty' />
                 </button>
             </td>
         </tr>

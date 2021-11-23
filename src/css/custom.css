@@ -1,0 +1,46 @@
+.change-qty {
+    color: #33c3f0;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.input-qty {
+    width: 30px;
+    height: 26px;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.button-count {
+    border-color: #33c3f0;
+}
+
+.button-count:active {
+    transform: scale(0.98);
+}
+
+.button-primary:active {
+    transform: scale(0.98);
+}
+
+@media print {
+    .label {
+        box-sizing: border-box;
+        max-width: 6cm;
+        min-height: 4cm;
+        max-height: 4cm;
+        overflow-x: hidden;
+        page-break-after: always;
+    }
+    .text {
+        font-family: 'Alegreya Sans', sans-serif;
+        padding: 0.2cm;
+        font-size: 6pt;
+        position: relative;
+        height: auto;
+    }
+}
+
+.label::-webkit-scrollbar {
+    width: 0;
+}

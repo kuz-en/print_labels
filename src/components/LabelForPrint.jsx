@@ -1,8 +1,8 @@
-function LabelForPrint({ title }) {
+function LabelForPrint({ text }) {
     return (
-        <>
-            <div>{title}</div>
-        </>
+        <div className='label'>
+            <p className='text'>{text}</p>
+        </div>
     );
 }
 

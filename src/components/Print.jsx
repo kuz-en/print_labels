@@ -1,17 +1,15 @@
 import React, { useRef } from 'react';
 import ReactToPrint from 'react-to-print';
 import LabelForPrint from './LabelForPrint';
-function Button({ listForPrint, clearInputsAfterPrint }) {
+function Print({ listForPrint, clearInputsAfterPrint }) {
     const componentRef = useRef();
 
     return (
         <>
             <div style={{ display: 'none' }}>
-                <div ref={componentRef} style={{}}>
+                <div ref={componentRef}>
                     {listForPrint.map((item) => {
-                        return (
-                            <LabelForPrint key={item.id} title={item.title} />
-                        );
+                        return <LabelForPrint key={item.id} text={item.text} />;
                     })}
                 </div>
             </div>
@@ -27,4 +25,4 @@ function Button({ listForPrint, clearInputsAfterPrint }) {
     );
 }
 
-export default Button;
+export default Print;
