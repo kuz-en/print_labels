@@ -20,31 +20,31 @@ const labels = [
     {
         title: 'Lovular',
         text: `^XA ^CF0,80 ^FO90,120^FDLOVULAR^FS ^XZ`,
-        id: 3,
+        id: 4,
         qty: 0,
     },
     {
         title: 'Merries',
         text: `^XA ^CF0,80 ^FO90,120^FDMERRIES^FS ^XZ`,
-        id: 3,
+        id: 5,
         qty: 0,
     },
     {
         title: 'Moony',
         text: `^XA ^CF0,80 ^FO90,120^FDMOONY^FS ^XZ`,
-        id: 3,
+        id: 6,
         qty: 0,
     },
     {
         title: 'Pampers',
         text: `^XA ^CF0,80 ^FO90,120^FDPAMPERS^FS ^XZ`,
-        id: 3,
+        id: 7,
         qty: 0,
     },
     {
         title: 'Yokosun',
         text: `^XA ^CF0,80 ^FO90,120^FDYOKOSUN^FS ^XZ`,
-        id: 3,
+        id: 8,
         qty: 0,
     },
 ];
