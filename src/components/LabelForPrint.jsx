@@ -1,7 +1,7 @@
 function LabelForPrint({ text }) {
     return (
         <div className='label'>
-            <p className='text'>{text}</p>
+            <p>{text}</p>
         </div>
     );
 }

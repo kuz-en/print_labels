@@ -25,22 +25,6 @@
 
 @media print {
     .label {
-        box-sizing: border-box;
-        max-width: 6cm;
-        min-height: 4cm;
-        max-height: 4cm;
-        overflow-x: hidden;
         page-break-after: always;
     }
-    .text {
-        font-family: 'Alegreya Sans', sans-serif;
-        padding: 0.2cm;
-        font-size: 6pt;
-        position: relative;
-        height: auto;
-    }
-}
-
-.label::-webkit-scrollbar {
-    width: 0;
 }
