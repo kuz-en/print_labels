@@ -115,7 +115,7 @@ const labels = [
     },
     {
         title: 'Babyline',
-        text: `^XA ^CF0,80 ^FO90,120^FDBABYLINE^FS ^XZ`,
+        text: `^XA ^CF0,80 ^FO80,120^FDBABYLINE^FS ^XZ`,
         id: 13,
         qty: 0,
         category: 'breast_pads',
@@ -129,7 +129,7 @@ const labels = [
     },
     {
         title: 'Helen Harper',
-        text: `^XA ^CF0,80 ^FO90,120^FDHELEN HARPER^FS ^XZ`,
+        text: `^XA ^CF0,70 ^FO15,120^FDHELEN HARPER^FS ^XZ`,
         id: 15,
         qty: 0,
         category: 'breast_pads',
@@ -157,7 +157,7 @@ const labels = [
     },
     {
         title: 'Roxy-Kids',
-        text: `^XA ^CF0,80 ^FO90,120^FDROXY-KIDS^FS ^XZ`,
+        text: `^XA ^CF0,80 ^FO35,120^FDROXY-KIDS^FS ^XZ`,
         id: 19,
         qty: 0,
         category: 'breast_pads',
