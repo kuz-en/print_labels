@@ -17,7 +17,9 @@ function Print({ listForPrint, clearInputsAfterPrint }) {
             <ReactToPrint
                 onAfterPrint={() => clearInputsAfterPrint()}
                 trigger={() => (
-                    <button className='button-primary'>Распечатать</button>
+                    <button className='button-primary'>
+                        Распечатать {listForPrint.length} шт.
+                    </button>
                 )}
                 content={() => componentRef.current}
             />
