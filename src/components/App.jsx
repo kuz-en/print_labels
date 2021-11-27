@@ -113,6 +113,7 @@ function App() {
                                     minusQty={minusQty}
                                     handleInput={handleInput}
                                     qty={item.qty}
+                                    category={item.category}
                                 />
                             );
                         })}

@@ -1,9 +1,12 @@
 import { FaMinus, FaPlus } from 'react-icons/fa';
+import { CATEGORY_LABELS_LIST } from '../constants';
 
-function Label({ id, title, plusQty, minusQty, handleInput, qty }) {
+function Label({ id, title, plusQty, minusQty, handleInput, qty, category }) {
     return (
         <tr>
-            <td style={{ width: '800px' }}>{title}</td>
+            <td
+                style={{ width: '800px' }}
+            >{`${title} (${CATEGORY_LABELS_LIST[category]})`}</td>
             <td style={{ width: '20px' }}>
                 <button onClick={() => minusQty(id)} className='button-count'>
                     <FaMinus className='change-qty' />
