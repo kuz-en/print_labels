@@ -108,63 +108,117 @@ const labels = [
     },
     {
         title: 'Avent',
-        text: `^XA ^CF0,80 ^FO90,120^FDAVENT^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        AVENT
+        ^FS
+        ^XZ`,
         id: 12,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Babyline',
-        text: `^XA ^CF0,80 ^FO80,120^FDBABYLINE^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        BABYLINE
+        ^FS
+        ^XZ`,
         id: 13,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Chicco',
-        text: `^XA ^CF0,80 ^FO90,120^FDCHICCO^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        CHICCO
+        ^FS
+        ^XZ`,
         id: 14,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Helen Harper',
-        text: `^XA ^CF0,70 ^FO15,120^FDHELEN HARPER^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        HELEN HARPER
+        ^FS
+        ^XZ`,
         id: 15,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Lovular',
-        text: `^XA ^CF0,80 ^FO90,120^FDBLOVULAR^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        LOVULAR
+        ^FS
+        ^XZ`,
         id: 16,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Medela',
-        text: `^XA ^CF0,80 ^FO90,120^FDMEDELA^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        MEDELA
+        ^FS
+        ^XZ`,
         id: 17,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Pigeon',
-        text: `^XA ^CF0,80 ^FO90,120^FDPIGEON^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        PIGEON
+        ^FS
+        ^XZ`,
         id: 18,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'Roxy-Kids',
-        text: `^XA ^CF0,80 ^FO35,120^FDROXY-KIDS^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        ROXY-KIDS
+        ^FS
+        ^XZ`,
         id: 19,
         qty: 0,
         category: 'breast_pads',
     },
     {
         title: 'YokoSun',
-        text: `^XA ^CF0,80 ^FO90,120^FDYOKOSUN^FS ^XZ`,
+        text: `^XA
+        ^FB460,1,1,C,
+        ^CF0,70
+        ^FO5,130^FD
+        YOKOSUN
+        ^FS
+        ^XZ`,
         id: 20,
         qty: 0,
         category: 'breast_pads',
