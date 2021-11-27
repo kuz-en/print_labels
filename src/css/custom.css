@@ -41,3 +41,33 @@
 .label::-webkit-scrollbar {
     width: 0;
 }
+
+.filter {
+    float: left;
+    clear: none;
+}
+
+label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 2em 0px 8px;
+}
+
+input[type='radio'],
+input.radio {
+    float: left;
+    clear: none;
+    margin: 1px 10px 0 2px;
+    width: 22px;
+    height: 22px;
+}
+
+table {
+    margin-top: 60px;
+}
+
+.title__header {
+    padding: 1rem 0 2rem;
+    text-align: center;
+}
