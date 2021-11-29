@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Эмуляция принтера Zebra
+
+Чтобы можно было печатать этикетки, если нет возможности работать на реальном принтере можно поставить расширение для браузера и установить принтер в систему печати, отправлять команды можно через терминал
+[https://stackoverflow.com/questions/33066789/emulate-zpl-printer](https://stackoverflow.com/questions/33066789/emulate-zpl-printer)
+
+Само расширение здесь [https://chrome.google.com/webstore/detail/zpl-printer/phoidlklenidapnijkabnfdgmadlcmjo/related](https://chrome.google.com/webstore/detail/zpl-printer/phoidlklenidapnijkabnfdgmadlcmjo/related)
+
+### Он-лайн редактор этикеток
+
+Чтобы быстро прикинуть дизайн этикетки можно воспльзоваться он-лайн ресурсом, который переводит ZPL в человеческий вид
+[http://labelary.com/](http://labelary.com/)
+
+### ZPL
+
+Хорошая статья на Хабре, чтобы въехать в ZPL [https://habr.com/ru/post/266677/](https://habr.com/ru/post/266677/)

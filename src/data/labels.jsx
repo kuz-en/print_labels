@@ -223,6 +223,19 @@ const labels = [
         qty: 0,
         category: 'breast_pads',
     },
+    {
+        title: 'Подарок',
+        text: `^XA
+        ^FB460,1,1,C,
+        ^A@N,60,40,E:ARI002.FNT
+        ^FO5,150^FD
+        ПОДАРОК
+        ^FS
+        ^XZ`,
+        id: 21,
+        qty: 0,
+        category: 'other',
+    },
 ];
 
 export default labels;
