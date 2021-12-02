@@ -362,7 +362,7 @@ const labels = [
         text: `^XA
         ^FO 15,15
         ^A@N,8,5,E:ARI001.FNT
-        ^FDВпитывающие трусы для рожениц, одноразовые^FS
+        ^FDБумажное полотенце^FS
 
         ^FO 15,50
 
@@ -376,7 +376,7 @@ const labels = [
 
         ^FS
         ^XZ`,
-        id: 26,
+        id: 27,
         qty: 0,
         category: 'other',
     },
