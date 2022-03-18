@@ -56,6 +56,13 @@ const labels = [
         category: 'diapers',
     },
     {
+        title: 'Bella Baby Happy',
+        text: `^XA ^CF0,80 ^FO90,120^FDYOKOSUN^FS ^XZ`,
+        id: 8,
+        qty: 0,
+        category: 'diapers',
+    },
+    {
         title: 'Штанишки для фиксации прокладок, размер M',
         text: `^XA
         ^FO 15,15
