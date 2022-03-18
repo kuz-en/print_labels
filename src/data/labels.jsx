@@ -57,7 +57,7 @@ const labels = [
     },
     {
         title: 'Bella Baby Happy',
-        text: `^XA ^CF0,80 ^FO90,120^FDBella^FS ^XZ`,
+        text: `^XA ^CF0,80 ^FO90,120^FDBELLA HAPPY^FS ^XZ`,
         id: 28,
         qty: 0,
         category: 'diapers',
