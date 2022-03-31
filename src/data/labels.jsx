@@ -396,6 +396,212 @@ const labels = [
         qty: 0,
         category: 'other',
     },
+    {
+        title: 'LOVULAR',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDLOVULAR^FS
+        ^XZ`,
+        id: 29,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'GooN',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDGooN^FS
+        ^XZ`,
+        id: 30,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Huggies',
+        text: String.raw`^XA
+        ^FO 2,50
+        ^FB340,3,5,C,0
+        ^AUN,20
+        ^FDHUGGIES\&Elite Soft^FS
+        ^XZ`,
+        id: 31,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Pampers',
+        text: String.raw`^XA
+        ^FO 2,50
+        ^FB340,3,5,C,0
+        ^AUN,20
+        ^FDPAMPERS\&Premium Care^FS
+        ^XZ`,
+        id: 32,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Merries',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDMERRIES^FS
+        ^XZ`,
+        id: 33,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Moony',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDMOONY^FS
+        ^XZ`,
+        id: 34,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Joonies',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDJOONIES^FS
+        ^XZ`,
+        id: 35,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Yokosun',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDYOKOSUN^FS
+        ^XZ`,
+        id: 36,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Bella Baby Happy',
+        text: String.raw`^XA
+        ^FO 2,50
+        ^FB340,3,5,C,0
+        ^AUN,20
+        ^FDBELLA\&Baby Happy^FS
+        ^XZ`,
+        id: 37,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Avent',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDAVENT^FS
+        ^XZ`,
+        id: 371,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Babyline',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDBABYLINE^FS
+        ^XZ`,
+        id: 38,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Chicco',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDCHICCO^FS
+        ^XZ`,
+        id: 39,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Helen Harper',
+        text: String.raw`^XA
+        ^FO 2,50
+        ^FB340,3,5,C,0
+        ^AUN,20
+        ^FDHELEN\&HARPER^FS
+        ^XZ`,
+        id: 40,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Medela',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDMEDELA^FS
+        ^XZ`,
+        id: 41,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Pigeon',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDPIGEON^FS
+        ^XZ`,
+        id: 42,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Roxy-Kids',
+        text: `^XA
+        ^FO 2,70
+        ^FB340,2,10,C,0
+        ^AVN,70,70
+        ^FDROXY-KIDS^FS
+        ^XZ`,
+        id: 43,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Подарок',
+        text: `^XA^FO100,20^XGE:GIFT150.GRF^FS^XZ`,
+        id: 44,
+        qty: 0,
+        category: 'mini',
+    },
+    {
+        title: 'Не использовать нож',
+        text: `^XA^FO100,20^XGE:DONTCUT.GRF^FS^XZ`,
+        id: 44,
+        qty: 0,
+        category: 'mini',
+    },
 ];
 
 export default labels;
