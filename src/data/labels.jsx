@@ -598,7 +598,7 @@ const labels = [
     {
         title: 'Не использовать нож',
         text: `^XA^FO100,20^XGE:DONTCUT.GRF^FS^XZ`,
-        id: 44,
+        id: 45,
         qty: 0,
         category: 'mini',
     },
